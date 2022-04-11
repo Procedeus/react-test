@@ -1,8 +1,18 @@
 import React from 'react'
+import Header from './Components/Header/Header'
+import Repository from './Components/Repository/Repository'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+
 
 function App() {
   return (
-    <div>App</div>
+    <>
+        <Header />
+        <Repository />
+        <Contact />
+        <Footer />
+    </>
   )
 }
 

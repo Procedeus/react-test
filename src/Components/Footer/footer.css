@@ -1,0 +1,28 @@
+.container__footer{
+    padding: 2rem;
+    background: var(--color-bg-variant);
+    text-align: center;
+}
+
+.container__footer > h2{
+    margin-bottom: 4rem;
+}
+
+.links__footer{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.link__icon{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 640px){
+    .links__footer{
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}

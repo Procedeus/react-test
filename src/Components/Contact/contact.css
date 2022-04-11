@@ -1,0 +1,35 @@
+.container.contact__container{
+    width: 35%;
+
+}
+
+form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    background: var(--color-bg-variant);
+    resize: none;
+    color: var(--text-white);
+}
+
+@media screen and (max-width: 1165px){
+    .container.contact__container{
+        width: 70%;
+    
+    }
+}
+
+@media screen and (max-width: 640px){
+    .container.contact__container{
+        width: 90%;
+    
+    }
+
+}

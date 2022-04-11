@@ -1,0 +1,32 @@
+.container__repository{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.repository__item{
+    margin-top: 2rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    background: var(--color-bg-variant);
+}
+
+.item__text{
+    text-align: left;
+}
+
+.item__text > a{
+    margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 1600px){
+    .container__repository{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .container__repository{
+        grid-template-columns: 1fr;
+    }
+}
